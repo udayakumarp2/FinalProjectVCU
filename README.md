@@ -1,2 +1,1 @@
-# FinalProjectVCU
-My final intro to eservices project.
+# Mock-up

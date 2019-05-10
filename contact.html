@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="assets/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body background="assets/images/fitlife.jpg">
+    <!--Header begins here  -->
+    <header>
+      <h1 class="FitLife">Contact Us</h1>
+    </header>
+    <!--Header ends here  -->
+    <!-- Navigation begins here -->
+    <navigation>
+      <li><a href="about.html">About</a></li>
+      <li><a href="index.html">Homepage</a></li>
+    </navigation>
+    <!--Navigation ends here  -->
+    <!-- aside begins here -->
+    <aside id="opacity2">
+      <img id="trainerLogo2" src="assets/images/trainer2.jpg" />
+    </aside>
+    <!-- aside ends here -->
+    <!-- section starts here -->
+    <section>
+      <p>
+        If you're interested in personal training please click on the following
+        link:<br />
+        <a href="mailto: udayakumarp2@vcu.edu">Connect with a trainer</a><br />
+        If you're interested in subscribing please click on the following
+        link:<br />
+        <a href="mailto: udayakumarp2@vcu.edu">Subscribe now!!!</a><br />
+        If you're interested in providing feed back please click on the
+        following link:<br />
+        <a href="mailto: udayakumarp2@vcu.edu">Send an email to me!!!!</a>
+      </p>
+      <h1>Contact Us</h1>
+      <!-- Form begins here  -->
+      <form action="/my-handling-form-page" method="post">
+        <div>
+          <label for="name">First Name:</label>
+
+          <input type="text" id="firstName" name="user_name" />
+        </div>
+
+        <div>
+          <label for="name">Last Name:</label>
+
+          <input type="text" id="lastName" name="user_name" />
+        </div>
+
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email" />
+        </div>
+
+        <div>
+          <label for="msg">Comments:</label>
+
+          <textarea id="userComments" name="user_message"></textarea>
+        </div>
+
+        <label for="reasonCode">
+          <span>Reason:</span>
+        </label>
+        <select id="reasonCode" name="userreason">
+          <option value="followup">Following Up</option>
+          <option value="dispute">Dispute</option>
+          <option value="feedback">Feedback</option>
+        </select>
+
+        <br />
+        <br />
+
+        <div class="button">
+          <button type="submit">Send your message</button>
+        </div>
+        <fieldset>
+          <legend>Satisfaction Rating</legend>
+          <p>
+            <input
+              type="radio"
+              name="dissapointed"
+              id="rating_1"
+              value="dissapointed"
+            />
+            <label for="rating_1">Dissapointed</label>
+          </p>
+          <p>
+            <input type="radio" name="average" id="rating_2" value="average" />
+            <label for="rating_2">Average</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="exceedsExpectations"
+              id="rating_3"
+              value="exceedsExpectation"
+            />
+            <label for="rating_3">Exceeds Expectations </label>
+          </p>
+        </fieldset>
+      </form>
+      <!-- Form ends here  -->
+    </section>
+    <!-- section ends here -->
+    <!-- footer starts here -->
+    <footer>&copy;2019 Copyright FitLife.All Rights Reserved.</footer>
+    <!-- footer ends here-->
+  </body>
+</html>

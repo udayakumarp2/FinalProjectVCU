@@ -1,0 +1,167 @@
+background {
+  background-color: rgba(255, 94, 0, 0.993);
+}
+/* header semantic elements */
+header {
+  width: 980px;
+  background: yellow;
+  border: solid 10px black;
+}
+/* footer semantic element */
+footer {
+  width: 980px;
+  background: yellow;
+  border: solid 15px green;
+  text-align: center;
+}
+/* About us */
+.FitLife {
+  text-align: center;
+}
+/* semantic for section */
+section {
+  max-width: 30%;
+  float: left;
+  padding-left: 10px;
+  border: solid 15px green;
+  background: yellow;
+}
+/*  semantic for aside */
+aside {
+  max-width: 60%;
+  float: left;
+  background-color: rgba(251, 255, 0, 0.993);
+  border: solid 15px darkgreen;
+}
+/* semantic for footer element */
+footer {
+  float: left;
+  max-width: 100%;
+}
+
+navigation {
+  padding: 10px 30% 20px;
+}
+
+#opacity {
+  background-color: rgba(255, 115, 0, 0.9);
+}
+
+/* responsive style  */
+@media only screen and (max-width: 600px) {
+  background {
+    background-color: rgba(255, 94, 0, 0.993);
+  }
+
+  header {
+    width: 980px;
+    background: yellow;
+    border: solid 10px black;
+  }
+
+  footer {
+    width: 980px;
+    background: yellow;
+    border: solid 15px green;
+    text-align: center;
+  }
+
+  .FitLife {
+    text-align: center;
+  }
+
+  section {
+    max-width: 30%;
+    float: left;
+    padding-left: 10px;
+    border: solid 15px green;
+    background: yellow;
+  }
+
+  aside {
+    max-width: 60%;
+    float: left;
+    background-color: rgba(251, 255, 0, 0.993);
+    border: solid 15px darkgreen;
+  }
+
+  footer {
+    float: left;
+    max-width: 100%;
+  }
+
+  navigation {
+    padding: 10px 30% 20px;
+  }
+
+  #opacity {
+    background-color: rgba(255, 115, 0, 0.9);
+  }
+
+  #trainerLogo2 {
+    opacity: 0.3;
+  }
+
+  #opacity2 {
+    opacity: 0.6;
+  }
+}
+/* responsive style */
+@media only screen and (max-width: 760px) {
+  background {
+    background-color: rgba(255, 94, 0, 0.993);
+  }
+
+  header {
+    width: 980px;
+    background: yellow;
+    border: solid 10px black;
+  }
+
+  footer {
+    width: 980px;
+    background: yellow;
+    border: solid 15px green;
+    text-align: center;
+  }
+
+  .FitLife {
+    text-align: center;
+  }
+
+  section {
+    max-width: 30%;
+    float: left;
+    padding-left: 10px;
+    border: solid 15px green;
+    background: yellow;
+  }
+
+  aside {
+    max-width: 60%;
+    float: left;
+    background-color: rgba(251, 255, 0, 0.993);
+    border: solid 15px darkgreen;
+  }
+
+  footer {
+    float: left;
+    max-width: 100%;
+  }
+
+  navigation {
+    padding: 10px 30% 20px;
+  }
+
+  #opacity {
+    background-color: rgba(255, 115, 0, 0.9);
+  }
+
+  #trainerLogo2 {
+    opacity: 0.3;
+  }
+
+  #opacity2 {
+    opacity: 0.6;
+  }
+}
